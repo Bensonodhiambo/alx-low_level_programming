@@ -1,0 +1,1 @@
+0x05._C_Pointers_arrays_and_strings
