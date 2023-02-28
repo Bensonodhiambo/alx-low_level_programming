@@ -1,4 +1,4 @@
-#include "main-h"
+#include "main.h"
 
 /**
  * puts_haif - Prints half of a string
