@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - copies an imputed number of bytes
+ * _strncpy - copies an imputed number of bytes
  * from  string src into dest.
  *@dest: The buffer storing the string copy
  *@src: The source string
@@ -9,7 +9,7 @@
  *Return: A pointer to the resulting string dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int index = 0, src_len = 0;
 
