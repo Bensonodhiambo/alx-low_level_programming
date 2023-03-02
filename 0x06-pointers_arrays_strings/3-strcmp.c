@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *_ strcmp - compares pointers to two strings
+ *_strcmp - compares pointers to two strings
  *@s1: A pointer to the first sting to be compared
  *@s2: A pointer to the second  sting to be compared
+ *
  *Return: If string 1 isless than string 2 negative diff
  *If stings equal 0
  *If string 2 isless than string 1 positive diff
