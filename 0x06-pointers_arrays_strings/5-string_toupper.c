@@ -8,7 +8,7 @@
  *
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 
 {
 
@@ -18,7 +18,7 @@ char *string_toupper(char *)
 	{
 	if (str[index])
 	str[index] -= 32;
-	index++
+	index++;
 	}
 	return (str);
 }
