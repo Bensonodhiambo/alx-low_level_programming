@@ -4,7 +4,6 @@
  * string_toupper - Changes all lowercase strings to uppercase
  * @str: The string to be changed
  * Return: A pointer to the changed string
- * Return: A pointer to the changed string
  *
  */
 
