@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+0x07. C - Even more pointers, arrays and strings
+=======
 0. memset
 mandatory
 Write a function that fills memory with a constant byte.
@@ -28,3 +31,4 @@ Write a function that sets the value of a pointer to a char.
 9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure
 #advanced
 Create a file that contains the password for the crackme2 executable.
+>>>>>>> 556e437e63433e4add0f4e58ecc37199934396c7
