@@ -9,8 +9,6 @@
  * Parameter: @h
  * Return: Always 0
  */
-size_t print_listint(const listint_t *h);
-int main ();
 
 	size_t print_listint(const listint_t *h)
 	{
@@ -23,9 +21,9 @@ int main ();
 
 		while (h != NULL)
 		{
-			printf("%d", h -> n);
+			printf("%d", h->n);
 			count++;
-			h = h -> next;
+			h = h->next;
 		}
 		return (count);
 	}
