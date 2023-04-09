@@ -9,15 +9,24 @@
  */
 
 void print_binary(unsigned long int n)
-int main();
+int main()
 {
-	int i, num;
+	int k, count = 0;
+	unsigned long int current;
 
-	printf("enter the number:\n");
-	scanf("%d", &num);
+	for (k = 63; k >= 0; k--)
+	{
+		current = n >> k;
 
-	for (i = 31; i >= 0; i--)
-	printf("%d", (num >> i) & i);
-	printf("\n");
-	return ;
+		if (current & 1)
+		{
+			_putchar('1');
+			count++;
+		}
+		else if (count)
+			_putchar('0');
+	}
+	if (!count)
+		_putchar('0');
 }
+
