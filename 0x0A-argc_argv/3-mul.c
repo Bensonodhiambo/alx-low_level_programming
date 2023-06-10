@@ -12,38 +12,38 @@ int _atoi(char *s)
 	int i, d, n, len, f, digit;
 
 	i = 0;
-	d = 0;
-	n = 0;
-	len = 0;
-	f = 0;
-	digit = 0;
+	j = 0;
+	k = 0;
+	strlen = 0;
+	g = 0;
+	num = 0;
 
-	while (s[len] != '\0')
-		len++;
+	while (s[strlen] != '\0')
+		strlen++;
 
-	while (i < len && f == 0)
+	while (i < strlen && g == 0)
 	{
 		if (s[i] == '-')
-			++d;
+			++j;
 
 		if (s[i] >= '0' && s[i] <= '9')
 		{
-			digit = s[i] - '0';
-			if (d % 2)
-				digit = -digit;
-			n = n * 10 + digit;
-			f = 1;
+			num = s[i] - '0';
+			if (j % 2)
+				num = -num;
+			k = k * 10 + num;
+			g = 1;
 			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
-			f = 0;
+			g = 0;
 		}
 		i++;
 	}
 
-	if (f == 0)
+	if (g  == 0)
 		return (0);
 
-	return (n);
+	return (k);
 }
 
 /**
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 {
 	int result, num1, num2;
 
-	if (argc < 3 || argc > 3)
+	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
