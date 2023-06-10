@@ -11,7 +11,10 @@
 int main(int argc, char *argv[])
 {
 	(void) argc;
-	printf("%s\n", argv[0]);
+
+	cons char *ProgramName = argv[0];
+
+	printf("%s\n", ProgramName);
 
 	return (0);
 }

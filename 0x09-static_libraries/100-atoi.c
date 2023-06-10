@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * _strchr - Entry point
- * @s: input
- * @c: input
- * Return: Always 0 (Success)
+ * _atoi - prints string
+ * @s: string
+ * Return: string
  */
 int _atoi(char *s);
