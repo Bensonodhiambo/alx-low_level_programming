@@ -5,7 +5,7 @@
  * The value it points to to 98
  *
  * Description: 'the program function to reset'
- * @n: An integer input point
+ *: @n: An integer input point
  * Return : nothing
  */
 
