@@ -4,9 +4,9 @@
 #include "lists.h"
 
 /**
- * main - Entry Point
+ * print_listint - prints all the elements
  *
- * Parameter: @h
+ * @h: pointer
  * Return: Always 0
  */
 
